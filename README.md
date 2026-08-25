@@ -1,13 +1,14 @@
 # 🗄️ C# Multi-Database Entegrasyonu (MongoDB & PostgreSQL)
 
-Bu proje, C# ile hem geleneksel ilişkisel (SQL) hem de ilişkisel olmayan (NoSQL) veritabanı mimarileri üzerine geliştirilmiş kapsamlı bir veri erişim uygulamasıdır. Proje kapsamında, modern backend sistemlerinde sıklıkla karşılaşılan "farklı veri tipleri için farklı veritabanları" (Polyglot Persistence) yaklaşımı simüle edilmiştir.
+Bu proje, C# ile hem geleneksel ilişkisel (SQL) hem de ilişkisel olmayan (NoSQL) veritabanı mimarileri üzerine başarıyla tamamlanmış kapsamlı bir veri erişim uygulamasıdır. Proje kapsamında, modern backend sistemlerinde sıklıkla karşılaşılan "farklı veri tipleri için farklı veritabanları" (Polyglot Persistence) yaklaşımı tam anlamıyla simüle edilerek çalışır duruma getirilmiştir.
 
-## 🚀 Proje Amacı
+## 🚀 Proje Amacı ve Çıktıları
 
-Aynı altyapı üzerinde birbirinden tamamen farklı iki veritabanı teknolojisinin nasıl entegre edilebileceğini kavramak. Uygulama içerisinde:
+Aynı altyapı üzerinde birbirinden tamamen farklı iki veritabanı teknolojisinin kusursuz entegrasyonu sağlanmıştır. Tamamlanan uygulama içerisinde:
 
-* **MongoDB** ile esnek döküman (JSON/BSON) tabanlı NoSQL mimarisi kullanılarak,
-* **PostgreSQL** ile katı, kurumsal ve ilişkisel tablo (SQL) mimarisi kullanılarak temel CRUD (Ekle, Sil, Güncelle, Listele) operasyonları başarılı bir şekilde gerçekleştirilmiştir.
+* **MongoDB** kullanılarak esnek döküman (JSON/BSON) tabanlı NoSQL mimarisi kuruldu ve veriler dinamik bir şekilde işlendi.
+* **PostgreSQL** kullanılarak katı, kurumsal ve ilişkisel tablo (SQL) mimarisi entegre edildi ve veri bütünlüğü sağlandı.
+* Her iki veritabanı üzerinde de arayüz (UI) bağlantılı temel CRUD (Ekle, Sil, Güncelle, Listele) operasyonları hatasız bir şekilde gerçekleştirildi.
 
 ## 🛠️ Teknoloji Yığını
 
