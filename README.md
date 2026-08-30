@@ -1,5 +1,7 @@
 # 🗄️ C# Multi-Database Entegrasyonu (MongoDB & PostgreSQL)
 
+![Durum](https://img.shields.io/badge/Durum-Tamamland%C4%B1-success)
+
 Bu proje, C# ile hem geleneksel ilişkisel (SQL) hem de ilişkisel olmayan (NoSQL) veritabanı mimarileri üzerine başarıyla tamamlanmış kapsamlı bir veri erişim uygulamasıdır. Proje kapsamında, modern backend sistemlerinde sıklıkla karşılaşılan "farklı veri tipleri için farklı veritabanları" (Polyglot Persistence) yaklaşımı tam anlamıyla simüle edilerek çalışır duruma getirilmiştir.
 
 ## 🚀 Proje Amacı ve Çıktıları
@@ -18,3 +20,12 @@ Aynı altyapı üzerinde birbirinden tamamen farklı iki veritabanı teknolojisi
   * PostgreSQL (EnterpriseDB & pgAdmin 4)
 * **Araç / Sürücüler:** MongoDB.Driver, Npgsql
 * **Arayüz:** Windows Forms
+
+---
+
+## ⚙️ Kurulum ve Çalıştırma
+
+1. Projeyi bilgisayarınıza klonlayın.
+2. Yerel ortamınızda MongoDB (varsayılan 27017 portu) ve PostgreSQL sunucularının aktif olarak çalıştığından emin olun.
+3. Proje içerisindeki `Connection String` (bağlantı dizesi) tanımlamalarını, kendi veritabanı kullanıcı adı ve şifrenize göre güncelleyin.
+4. Çözüm (Solution) dosyasını Visual Studio ile açın, projeyi derleyin (Build) ve çalıştırın.
